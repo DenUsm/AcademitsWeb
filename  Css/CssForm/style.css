@@ -1,0 +1,57 @@
+.request
+{
+    margin-top: 20px;
+    margin-left: 40px;
+    font-family: Sempione Grotesk, sans-serif;
+    font-size: 23px;
+    color: #67656E;
+}
+.request-form
+{
+    margin-top: 5px;
+    margin-left: 20px;
+    height: 420px;
+    width: 700px;
+    background: #FEEDD8;
+}
+.request-field
+{
+    font-family: Sempione Grotesk, sans-serif;
+    color: #67656E;
+    margin-left: 20px;
+    margin-right: 20px;
+    padding-top: 10px;
+}
+.field-name
+{
+    font-size: 13px;
+    font-weight: bold;
+}
+.field
+{
+    margin-top: 5px;
+    height: 22px;
+    padding-left: 10px;
+    width: 645px;
+}
+.field-comment
+{
+    margin-top: 5px;
+    padding-left: 10px;
+    width: 645px;
+    height: 120px;
+}
+.notification
+{
+    font-size: 13px;
+}
+.button-send
+{
+    font-family: Sempione Grotesk, sans-serif;
+    font-weight: bold;
+    font-size: 13px;
+    color: #FFFFFF;
+    background: #2798D4;
+    padding: 10px 10px;
+    margin-left: 540px;
+}
