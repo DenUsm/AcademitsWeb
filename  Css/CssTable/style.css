@@ -1,0 +1,29 @@
+.table
+{
+    border-collapse: collapse;
+    font-family: Betm SemiBold, sans-serif;
+    border: 1px solid lightgrey;
+    margin-top: 100px;
+    margin-left: 100px;
+    width: 677px;
+}
+tr:nth-child(odd)
+{
+    height: 35px;
+    border: 1px solid lightgrey;
+    background: #EEEEEE;
+}
+td
+{
+    border: 1px solid lightgrey;
+    padding: 10px 10px;
+}
+th
+{
+    border: 1px solid lightgrey;
+    text-align: left;
+    padding: 10px 10px;
+    color: #FFFFFF;
+    background: #2798D4;
+}
+
