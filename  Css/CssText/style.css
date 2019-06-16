@@ -1,0 +1,45 @@
+body
+{
+    background: #FEEDD8;
+}
+.info-item
+{
+    margin-top: 10px;
+    font-size: 16px;
+}
+.course
+{
+    font-family: Sempione Grotesk, sans-serif;
+    margin-left: 10px;
+    margin-top: 5px;
+}
+.course-information
+{
+    margin-top: 20px;
+}
+.course-name
+{
+    font-size: 25px;
+    color: #434E58;
+}
+.title
+{
+    color: #2AA0BC;
+    font-weight: bold;
+}
+.text
+{
+    color: #434E58;
+}
+.text-extention
+{
+    color: #434E58;
+    text-decoration: line-through;
+}
+.other-text
+{
+    margin-top: 15px;
+    text-indent: 15px;
+    color: #434E58;
+    text-align: left;
+}
