@@ -1,45 +1,47 @@
-body
-{
+body {
     background: #FEEDD8;
 }
-.info-item
-{
-    margin-top: 10px;
-    font-size: 16px;
+
+.course-information div {
+    margin-top: 17px;
+    font-size: 17px;
 }
-.course
-{
+
+.course {
     font-family: Sempione Grotesk, sans-serif;
     margin-left: 10px;
     margin-top: 5px;
 }
-.course-information
-{
-    margin-top: 20px;
+
+.course-information {
+    margin-top: 22px;
 }
-.course-name
-{
-    font-size: 25px;
+
+.course h1 {
+    font-size: 27px;
+    width: 700px;
     color: #434E58;
 }
-.title
-{
+
+div > span {
     color: #2AA0BC;
     font-weight: bold;
 }
-.text
-{
-    color: #434E58;
+
+span ~ span {
+    color: #686C76;
+    font-weight: normal;
 }
-.text-extention
-{
-    color: #434E58;
+
+.text-extension {
+    color: #686C76;
     text-decoration: line-through;
 }
-.other-text
-{
-    margin-top: 15px;
+
+span ~ p {
+    margin-top: 17px;
+    width: 815px;
     text-indent: 15px;
-    color: #434E58;
+    color: #686C76;
     text-align: left;
 }
