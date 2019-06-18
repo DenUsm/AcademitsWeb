@@ -2,7 +2,7 @@ body {
     background: #FEEDD8;
 }
 
-.course-information div {
+.info-item {
     margin-top: 17px;
     font-size: 17px;
 }
@@ -19,29 +19,33 @@ body {
 
 .course h1 {
     font-size: 27px;
-    width: 700px;
+    width: auto;
+    max-width: 700px;
     color: #434E58;
 }
 
-div > span {
+.info-item span {
     color: #2AA0BC;
     font-weight: bold;
 }
 
-span ~ span {
+.info-item .text {
     color: #686C76;
     font-weight: normal;
 }
 
-.text-extension {
+.info-item .text-extension {
     color: #686C76;
     text-decoration: line-through;
+    font-weight: normal;
 }
 
-span ~ p {
+.info-item p {
     margin-top: 17px;
-    width: 815px;
+    width: auto;
+    max-width: 815px;
     text-indent: 15px;
+    line-height: 25px;
     color: #686C76;
     text-align: left;
 }
