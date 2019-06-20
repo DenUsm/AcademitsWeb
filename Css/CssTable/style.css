@@ -1,29 +1,49 @@
-.table
-{
+.table-workers {
     border-collapse: collapse;
     font-family: Betm SemiBold, sans-serif;
+    font-size: 20px;
     border: 1px solid lightgrey;
-    margin-top: 100px;
-    margin-left: 100px;
-    width: 677px;
+    margin-top: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+    width: auto;
 }
-tr:nth-child(odd)
-{
-    height: 35px;
+
+.table-workers tr {
+    height: 53px;
+}
+
+.table-workers tr:nth-child(odd) {
     border: 1px solid lightgrey;
     background: #EEEEEE;
 }
-td
-{
+
+.table-workers td {
     border: 1px solid lightgrey;
-    padding: 10px 10px;
+    padding: 18px 15px 15px;
 }
-th
-{
-    border: 1px solid lightgrey;
+
+.table-workers th {
     text-align: left;
-    padding: 10px 10px;
-    color: #FFFFFF;
+    padding: 18px 15px 15px;
+    border: 1px solid lightgrey;
     background: #2798D4;
+    color: #FFFFFF;
+}
+
+.first-name {
+    width: 150px;
+}
+
+.last-name {
+    width: 148px;
+}
+
+.job-title {
+    width: 290px;
+}
+
+.twitter {
+    width: 175px;
 }
 
