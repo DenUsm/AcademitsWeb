@@ -81,3 +81,8 @@ input[type="text"]::-webkit-input-placeholder, textarea[type="text"]::-moz-place
     background: #378DB2;
     margin-left: 100%;
 }
+
+input[type="submit"]:hover {
+    cursor: pointer;
+    background: #2B7086;
+}
