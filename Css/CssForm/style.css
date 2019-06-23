@@ -1,57 +1,83 @@
-.request
-{
+* {
+    box-sizing: border-box;
+}
+
+.request {
+    font-family: Sempione Grotesk, sans-serif;
+}
+
+.request .header-request {
     margin-top: 20px;
-    margin-left: 40px;
-    font-family: Sempione Grotesk, sans-serif;
-    font-size: 23px;
+    margin-left: 45px;
+    font-size: 32px;
+    letter-spacing: 1px;
     color: #67656E;
 }
-.request-form
-{
+
+.container {
     margin-top: 5px;
-    margin-left: 20px;
-    height: 420px;
-    width: 700px;
-    background: #FEEDD8;
-}
-.request-field
-{
-    font-family: Sempione Grotesk, sans-serif;
-    color: #67656E;
     margin-left: 20px;
     margin-right: 20px;
+    height: 540px;
+    max-width: 875px;
+    background: #FEEED6;
+}
+
+.item-form {
+    padding-top: 22px;
+    margin-right: 20px;
+    margin-left: 20px;
+    font-size: 16px;
+}
+
+.item-form label {
+    font-weight: bold;
+    color: #67656E;
+}
+
+.request-form .note {
+    margin-top: 23px;
+    margin-left: 20px;
+    font-weight: normal;
+    color: #9A9792;
+}
+
+input[type="text"]::-webkit-input-placeholder, textarea[type="text"]::-webkit-input-placeholder {
+    color: #A9A8B1;
+}
+
+input[type="text"]::-webkit-input-placeholder, textarea[type="text"]::-moz-placeholder {
+    color: #A9A8B1;
+}
+
+.item-form input {
+    margin-top: 6px;
+    padding-left: 12px;
+    font-size: 16px;
+    width: 100%;
+    height: 41px;
+}
+
+.item-form textarea {
+    margin-top: 6px;
+    padding-left: 12px;
+    font-size: 16px;
     padding-top: 10px;
+    width: 100%;
+    height: 130px;
 }
-.field-name
-{
-    font-size: 13px;
+
+.button-container {
+    margin-top: 13px;
+    margin-right: 195px;
+}
+
+.button-container input[type="submit"] {
+    width: 175px;
+    height: 38px;
     font-weight: bold;
-}
-.field
-{
-    margin-top: 5px;
-    height: 22px;
-    padding-left: 10px;
-    width: 645px;
-}
-.field-comment
-{
-    margin-top: 5px;
-    padding-left: 10px;
-    width: 645px;
-    height: 120px;
-}
-.notification
-{
-    font-size: 13px;
-}
-.button-send
-{
-    font-family: Sempione Grotesk, sans-serif;
-    font-weight: bold;
-    font-size: 13px;
+    font-size: 16px;
     color: #FFFFFF;
-    background: #2798D4;
-    padding: 10px 10px;
-    margin-left: 540px;
+    background: #378DB2;
+    margin-left: 100%;
 }
