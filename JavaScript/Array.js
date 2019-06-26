@@ -30,7 +30,7 @@ function createArray() {
     return array;
 }
 
-var squareListEvenValue = createArray().filter( function (item) {
+var squareListEvenValue = createArray().filter(function (item) {
     if (item % 2 === 0) {
         return Math.pow(item, 2);
     }
@@ -44,4 +44,4 @@ console.log("Первые пять чисел отсортированного �
 
 console.log("Массив от 1 до 100 " + createArray());
 
-console.log("Список квадратов четных чисел массива " + squareListEvenValue)
+console.log("Список квадратов четных чисел массива " + squareListEvenValue);
