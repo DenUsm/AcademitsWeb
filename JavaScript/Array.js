@@ -16,16 +16,16 @@ var sumEvenValue = sortArray
         return sum + number;
     });
 
-console.log("Сумма четных элементов массива равна " + sumEvenValue)
+console.log("Сумма четных элементов массива равна " + sumEvenValue);
 
 /**
  * Создание массива от 1 до 100
  * @returns {Array} Массив чисел
  */
 function createArray() {
-    let array = [];
-    for (let i = 0; i < 100; i++) {
-        array.push(i + 1);
+    var array = [];
+    for (let i = 1; i <= 100; i++) {
+        array.push(i);
     }
     return array;
 }
@@ -36,10 +36,10 @@ var squareListEvenValue = createArray().filter(function (item) {
     }
 });
 
-let fistFiveValueArray = array.slice(0, 5);
+var fistFiveValueArray = array.slice(0, 5);
 console.log("Первые пять чисел отсортированного массива " + fistFiveValueArray);
 
-let endFiveValueArray = array.slice(array.length - 5);
+var endFiveValueArray = array.slice(array.length - 5);
 console.log("Первые пять чисел отсортированного массива " + endFiveValueArray);
 
 console.log("Массив от 1 до 100 " + createArray());
