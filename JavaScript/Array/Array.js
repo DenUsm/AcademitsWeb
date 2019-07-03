@@ -14,7 +14,7 @@ var sumEvenValue = sortArray
     })
     .reduce(function (sum, number) {
         return sum + number;
-    });
+    }, 0);
 
 console.log("Сумма четных элементов массива равна " + sumEvenValue);
 
@@ -30,11 +30,13 @@ function createArray() {
     return array;
 }
 
-var squareListEvenValue = createArray().filter(function (item) {
-    if (item % 2 === 0) {
-        return Math.pow(item, 2);
-    }
-});
+var squareListEvenValue = createArray()
+    .filter(function (item) {
+        return item % 2 === 0;
+    })
+    .map(function (number) {
+       return Math.pow(number, 2);
+    });
 
 var fistFiveValueArray = array.slice(0, 5);
 console.log("Первые пять чисел отсортированного массива " + fistFiveValueArray);
