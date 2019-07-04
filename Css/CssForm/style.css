@@ -70,6 +70,7 @@ input[type="text"]::-webkit-input-placeholder, textarea[type="text"]::-moz-place
 .button-container {
     margin-top: 13px;
     margin-right: 195px;
+    margin-bottom: 15px;
 }
 
 .button-container input[type="submit"] {
@@ -79,7 +80,7 @@ input[type="text"]::-webkit-input-placeholder, textarea[type="text"]::-moz-place
     font-size: 16px;
     color: #FFFFFF;
     background: #378DB2;
-    margin-left: 100%;
+    text-align: right;
 }
 
 input[type="submit"]:hover {

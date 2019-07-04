@@ -2,11 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f83cd65f-5766-408b-ada3-d478289fd657" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Css/CssForm/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/Css/CssForm/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JavaScript/Array/Array.js" beforeDir="false" afterPath="$PROJECT_DIR$/JavaScript/Array/Array.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JavaScript/Array/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/JavaScript/Array/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JavaScript/Object/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/JavaScript/Object/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaScript/Object/Object.js" beforeDir="false" afterPath="$PROJECT_DIR$/JavaScript/Object/Object.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -28,10 +25,10 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/JavaScript/Array/Array.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
+            <state relative-caret-position="-66">
               <caret line="14" column="36" lean-forward="true" selection-start-line="14" selection-start-column="36" selection-end-line="14" selection-end-column="36" />
             </state>
           </provider>
@@ -46,11 +43,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/JavaScript/Object/Object.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="100">
-              <caret line="45" column="5" lean-forward="true" selection-start-line="45" selection-start-column="5" selection-end-line="45" selection-end-column="5" />
+            <state relative-caret-position="91">
+              <caret line="52" column="22" selection-start-line="52" selection-start-column="22" selection-end-line="52" selection-end-column="22" />
             </state>
           </provider>
         </entry>
@@ -95,10 +92,10 @@
         <option value="$PROJECT_DIR$/JavaScript/index.html" />
         <option value="$PROJECT_DIR$/Css/CssForm/style.css" />
         <option value="$PROJECT_DIR$/JavaScript/Array.js" />
-        <option value="$PROJECT_DIR$/JavaScript/Object/Object.js" />
         <option value="$PROJECT_DIR$/JavaScript/Array/index.html" />
         <option value="$PROJECT_DIR$/JavaScript/Object/index.html" />
         <option value="$PROJECT_DIR$/JavaScript/Array/Array.js" />
+        <option value="$PROJECT_DIR$/JavaScript/Object/Object.js" />
       </list>
     </option>
   </component>
@@ -180,7 +177,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Node.js.Array.js">
+  <component name="RunManager" selected="Node.js.Object.js">
     <configuration name="Array.js" type="NodeJSConfigurationType" temporary="true" path-to-js-file="Array.js" working-dir="$PROJECT_DIR$/JavaScript/Array">
       <method v="2" />
     </configuration>
@@ -189,8 +186,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Node.js.Array.js" />
         <item itemvalue="Node.js.Object.js" />
+        <item itemvalue="Node.js.Array.js" />
       </list>
     </recent_temporary>
   </component>
@@ -208,12 +205,12 @@
       <workItem from="1560581742184" duration="85000" />
       <workItem from="1560581849906" duration="14244000" />
       <workItem from="1560672947841" duration="53511000" />
-      <workItem from="1561881354724" duration="16546000" />
+      <workItem from="1561881354724" duration="20396000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="87054000" />
+    <option name="totallyTimeSpent" value="90904000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-1" y="24" width="1280" height="712" extended-state="6" />
@@ -365,17 +362,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/JavaScript/Object/Object.js">
+    <entry file="file://$PROJECT_DIR$/JavaScript/Array/Array.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="100">
-          <caret line="45" column="5" lean-forward="true" selection-start-line="45" selection-start-column="5" selection-end-line="45" selection-end-column="5" />
+        <state relative-caret-position="-66">
+          <caret line="14" column="36" lean-forward="true" selection-start-line="14" selection-start-column="36" selection-end-line="14" selection-end-column="36" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/JavaScript/Array/Array.js">
+    <entry file="file://$PROJECT_DIR$/JavaScript/Object/Object.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" column="36" lean-forward="true" selection-start-line="14" selection-start-column="36" selection-end-line="14" selection-end-column="36" />
+        <state relative-caret-position="91">
+          <caret line="52" column="22" selection-start-line="52" selection-start-column="22" selection-end-line="52" selection-end-column="22" />
         </state>
       </provider>
     </entry>
