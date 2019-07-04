@@ -8,7 +8,7 @@ var sortArray = array.sort(function (a, b) {
 
 console.log("Отсортированный массив по убыванию " + sortArray);
 
-var sumEvenValue = sortArray
+var sumEvenValues = sortArray
     .filter(function (item) {
         return item % 2 === 1;
     })
@@ -16,7 +16,7 @@ var sumEvenValue = sortArray
         return sum + number;
     }, 0);
 
-console.log("Сумма четных элементов массива равна " + sumEvenValue);
+console.log("Сумма четных элементов массива равна " + sumEvenValues);
 
 /**
  * Создание массива от 1 до 100
@@ -24,13 +24,13 @@ console.log("Сумма четных элементов массива равн�
  */
 function createArray() {
     var array = [];
-    for (let i = 1; i <= 100; i++) {
+    for (var i = 1; i <= 100; i++) {
         array.push(i);
     }
     return array;
 }
 
-var squareListEvenValue = createArray()
+var arraySquaresEvenNumbers = createArray()
     .filter(function (item) {
         return item % 2 === 0;
     })
@@ -38,12 +38,12 @@ var squareListEvenValue = createArray()
        return Math.pow(number, 2);
     });
 
-var fistFiveValueArray = array.slice(0, 5);
-console.log("Первые пять чисел отсортированного массива " + fistFiveValueArray);
+var subArrayFirst = array.slice(0, 5);
+console.log("Первые пять чисел отсортированного массива " + subArrayFirst);
 
-var endFiveValueArray = array.slice(array.length - 5);
-console.log("Первые пять чисел отсортированного массива " + endFiveValueArray);
+var subArraySecond = array.slice(array.length - 5);
+console.log("Первые пять чисел отсортированного массива " + subArraySecond);
 
 console.log("Массив от 1 до 100 " + createArray());
 
-console.log("Список квадратов четных чисел массива " + squareListEvenValue);
+console.log("Список квадратов четных чисел массива " + arraySquaresEvenNumbers);
