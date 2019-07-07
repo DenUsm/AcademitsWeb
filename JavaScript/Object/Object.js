@@ -14,7 +14,7 @@ var countries = [
         cities: [
             {name: "Буэнос-Айрес", population: 2776138},
             {name: "Кордова", population: 1267521},
-            {name: "Росарио", population: 1028658},
+            {name: "Росарио", population: 1028658}
         ]
     },
     {
@@ -24,42 +24,43 @@ var countries = [
             {name: "Пекин", population: 18827000},
             {name: "Чунцин", population: 15294255},
             {name: "Тяньцзинь", population: 11090314},
-            {name: "Гуанчжоу", population: 11070654},
+            {name: "Гуанчжоу", population: 11070654}
         ]
     }
-]
+];
 
 /**
- * Получить страну/страны с максимальным количеством городов
- * @param array - массив стран
- * @returns {Array} - массив стран
+ * Найти страну/страны с максимальным количеством городов
+ * @param countries - массив стран
+ * @returns {Array} - название страны/стран
  */
-function getNameCountriesWithMaxCountCities(array) {
-    var maxCount = 0;
-    var result = [];
-    array.forEach(function (item) {
-        if (item.cities.length >= maxCount) {
-            maxCount = item.cities.length;
-            result.push(item.name);
+function getNamesOfCountriesWithMaxCitiesCount(countries) {
+    return countries.filter(function (country) {
+        if (country.cities.length === Math.max.apply(null, countries.map(function (country) {
+            return country.cities.length;
+        }))) {
+            return country;
         }
+    }).map(function (country) {
+        return country.name;
     });
-    return result;
 }
 
 /**
  * Получить объект ключ - значение
- * @param array - словарь (ключ: страна, значение: численность населения по всем городам)
+ * @param country - массив стран
+ * @returns {Object} - словарь (ключ: страна, значение: численность населения по всем городам)
  */
-function PopulationInCountries(array) {
+function getPopulationsofCountries(country) {
     var result = {};
-    array.forEach(function (item) {
-        result[item.name] = item.cities.reduce(function (total, population) {
-            return total + population.population;
+    country.forEach(function (country) {
+        result[country.name] = country.cities.reduce(function (total, city) {
+            return total + city.population;
         }, 0);
     });
     return result;
 }
 
-console.log("Страна/страны с максимальным количеством городов " + getNameCountriesWithMaxCountCities(countries).join(", "));
+console.log("Страна/страны с максимальным количеством городов " + getNamesOfCountriesWithMaxCitiesCount(countries).join(", "));
 
-console.log(PopulationInCountries(countries));
+console.log(getPopulationsofCountries(countries));

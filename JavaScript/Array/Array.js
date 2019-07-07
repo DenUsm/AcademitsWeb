@@ -8,13 +8,13 @@ var sortArray = array.sort(function (a, b) {
 
 console.log("Отсортированный массив по убыванию " + sortArray);
 
-var sumEvenValues = sortArray
-    .filter(function (item) {
-        return item % 2 === 1;
-    })
-    .reduce(function (sum, number) {
+var sumEvenValues = sortArray.reduce(function (sum, number) {
+    if (number % 2 === 0) {
         return sum + number;
-    }, 0);
+    } else {
+        return  sum;
+    }
+}, 0);
 
 console.log("Сумма четных элементов массива равна " + sumEvenValues);
 
@@ -30,12 +30,12 @@ function createArray() {
     return array;
 }
 
-var arraySquaresEvenNumbers = createArray()
+var evenNumbersSquaresArray = createArray()
     .filter(function (item) {
         return item % 2 === 0;
     })
     .map(function (number) {
-       return Math.pow(number, 2);
+        return Math.pow(number, 2);
     });
 
 var subArrayFirst = array.slice(0, 5);
@@ -46,4 +46,4 @@ console.log("Первые пять чисел отсортированного �
 
 console.log("Массив от 1 до 100 " + createArray());
 
-console.log("Список квадратов четных чисел массива " + arraySquaresEvenNumbers);
+console.log("Список квадратов четных чисел массива " + evenNumbersSquaresArray);
