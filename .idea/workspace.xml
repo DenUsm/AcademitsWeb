@@ -2,9 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f83cd65f-5766-408b-ada3-d478289fd657" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/JavaScript/ConvertTemperature/convertTemperature.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaScript/ConvertTemperature/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaScript/ToDoList/ToDoList.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaScript/ToDoList/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Css/CssTable/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/Css/CssTable/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Css/CssTable/reset.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaScript/ConvertTemperature/convertTemperature.js" beforeDir="false" afterPath="$PROJECT_DIR$/JavaScript/ConvertTemperature/convertTemperature.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaScript/ConvertTemperature/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/JavaScript/ConvertTemperature/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaScript/Object/Object.js" beforeDir="false" afterPath="$PROJECT_DIR$/JavaScript/Object/Object.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -17,20 +22,38 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/JavaScript/ConvertTemperature/index.html">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/JavaScript/ToDoList/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="9" column="69" selection-start-line="9" selection-start-column="69" selection-end-line="9" selection-end-column="69" />
+            <state relative-caret-position="150">
+              <caret line="10" column="40" selection-start-line="10" selection-start-column="40" selection-end-line="10" selection-end-column="40" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/JavaScript/ToDoList/ToDoList.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="105">
+              <caret line="7" selection-start-line="7" selection-end-line="7" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/JavaScript/ConvertTemperature/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="150">
+              <caret line="10" column="39" selection-start-line="10" selection-start-column="39" selection-end-line="10" selection-end-column="39" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/JavaScript/ConvertTemperature/convertTemperature.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="4" column="1" lean-forward="true" selection-start-line="4" selection-start-column="1" selection-end-line="4" selection-end-column="1" />
+            <state relative-caret-position="255">
+              <caret line="17" column="3" lean-forward="true" selection-start-line="17" selection-start-column="3" selection-end-line="17" selection-end-column="3" />
             </state>
           </provider>
         </entry>
@@ -41,8 +64,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="HTML File" />
-        <option value="CSS File" />
         <option value="JavaScript File" />
+        <option value="CSS File" />
       </list>
     </option>
   </component>
@@ -77,12 +100,15 @@
         <option value="$PROJECT_DIR$/JavaScript/Array.js" />
         <option value="$PROJECT_DIR$/JavaScript/Array/index.html" />
         <option value="$PROJECT_DIR$/JavaScript/Object/index.html" />
-        <option value="$PROJECT_DIR$/JavaScript/Object/Object.js" />
         <option value="$PROJECT_DIR$/JavaScript/Array/Array.js" />
         <option value="$PROJECT_DIR$/JavaScript/ConvertTemperature/style.css" />
         <option value="$PROJECT_DIR$/JavaScript/ConvertTemperature/ConvertTemperature.js" />
-        <option value="$PROJECT_DIR$/JavaScript/ConvertTemperature/convertTemperature.js" />
+        <option value="$PROJECT_DIR$/JavaScript/ToDoList/style.css" />
+        <option value="$PROJECT_DIR$/JavaScript/ToDoList/ToDoList.js" />
+        <option value="$PROJECT_DIR$/JavaScript/ToDoList/index.html" />
+        <option value="$PROJECT_DIR$/JavaScript/Object/Object.js" />
         <option value="$PROJECT_DIR$/JavaScript/ConvertTemperature/index.html" />
+        <option value="$PROJECT_DIR$/JavaScript/ConvertTemperature/convertTemperature.js" />
       </list>
     </option>
   </component>
@@ -115,6 +141,12 @@
             <path>
               <item name="AcademitsWeb" type="b2602c69:ProjectViewProjectNode" />
               <item name="AcademitsWeb" type="462c0819:PsiDirectoryNode" />
+              <item name="Css" type="462c0819:PsiDirectoryNode" />
+              <item name="CssTable" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="AcademitsWeb" type="b2602c69:ProjectViewProjectNode" />
+              <item name="AcademitsWeb" type="462c0819:PsiDirectoryNode" />
               <item name="Html" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -126,7 +158,7 @@
               <item name="AcademitsWeb" type="b2602c69:ProjectViewProjectNode" />
               <item name="AcademitsWeb" type="462c0819:PsiDirectoryNode" />
               <item name="JavaScript" type="462c0819:PsiDirectoryNode" />
-              <item name="ConvertTemperature" type="462c0819:PsiDirectoryNode" />
+              <item name="Object" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -149,6 +181,7 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/JavaScript/ToDoList" />
       <recent name="$PROJECT_DIR$/JavaScript/Array" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
@@ -197,15 +230,15 @@
       <workItem from="1560581742184" duration="85000" />
       <workItem from="1560581849906" duration="14244000" />
       <workItem from="1560672947841" duration="53511000" />
-      <workItem from="1561881354724" duration="34135000" />
+      <workItem from="1561881354724" duration="37149000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="104643000" />
+    <option name="totallyTimeSpent" value="107657000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="25" width="1280" height="711" extended-state="6" />
+    <frame x="1" y="25" width="1280" height="711" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2065131" />
@@ -271,7 +304,7 @@
     </option>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Css/CssTable/reset.css">
+    <entry file="file://$PROJECT_DIR$/JavaScript/ToDoList/reset.css">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/Html/pageTwo.html">
@@ -340,13 +373,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/JavaScript/Object/Object.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="49" column="34" lean-forward="true" selection-start-line="49" selection-start-column="34" selection-end-line="49" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/JavaScript/ConvertTemperature/reset.css">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -378,17 +404,45 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/JavaScript/ConvertTemperature/convertTemperature.js">
+    <entry file="file://$PROJECT_DIR$/JavaScript/ToDoList/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="1" lean-forward="true" selection-start-line="4" selection-start-column="1" selection-end-line="4" selection-end-column="1" />
+        <state relative-caret-position="120">
+          <caret line="8" column="14" selection-start-line="8" selection-start-column="14" selection-end-line="8" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/JavaScript/ToDoList/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="40" selection-start-line="10" selection-start-column="40" selection-end-line="10" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/JavaScript/Object/Object.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="42" column="8" lean-forward="true" selection-start-line="42" selection-start-column="8" selection-end-line="42" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/JavaScript/ToDoList/ToDoList.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" selection-start-line="7" selection-end-line="7" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/JavaScript/ConvertTemperature/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="69" selection-start-line="9" selection-start-column="69" selection-end-line="9" selection-end-column="69" />
+        <state relative-caret-position="150">
+          <caret line="10" column="39" selection-start-line="10" selection-start-column="39" selection-end-line="10" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/JavaScript/ConvertTemperature/convertTemperature.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="17" column="3" lean-forward="true" selection-start-line="17" selection-start-column="3" selection-end-line="17" selection-end-column="3" />
         </state>
       </provider>
     </entry>
