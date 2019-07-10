@@ -35,12 +35,11 @@ var countries = [
  * @returns {Array} - название страны/стран
  */
 function getNamesOfCountriesWithMaxCitiesCount(countries) {
+    var maxCitiesCount = Math.max.apply(null, countries.map(function (country) {
+        return country.cities.length;
+    }));
     return countries.filter(function (country) {
-        if (country.cities.length === Math.max.apply(null, countries.map(function (country) {
-            return country.cities.length;
-        }))) {
-            return country;
-        }
+        return country.cities.length === maxCitiesCount
     }).map(function (country) {
         return country.name;
     });
@@ -51,7 +50,7 @@ function getNamesOfCountriesWithMaxCitiesCount(countries) {
  * @param country - массив стран
  * @returns {Object} - словарь (ключ: страна, значение: численность населения по всем городам)
  */
-function getPopulationsofCountries(country) {
+function getPopulationsOfCountries(country) {
     var result = {};
     country.forEach(function (country) {
         result[country.name] = country.cities.reduce(function (total, city) {
@@ -63,4 +62,4 @@ function getPopulationsofCountries(country) {
 
 console.log("Страна/страны с максимальным количеством городов " + getNamesOfCountriesWithMaxCitiesCount(countries).join(", "));
 
-console.log(getPopulationsofCountries(countries));
+console.log(getPopulationsOfCountries(countries));
