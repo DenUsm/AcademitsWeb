@@ -21,7 +21,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/JavaScript/ConvertTemperature/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="45">
+            <state relative-caret-position="14">
               <caret line="3" column="26" lean-forward="true" selection-start-line="3" selection-start-column="26" selection-end-line="3" selection-end-column="26" />
             </state>
           </provider>
@@ -30,8 +30,26 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/JavaScript/ConvertTemperature/convertTemperature.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="108">
-              <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
+            <state relative-caret-position="153">
+              <caret line="27" column="41" lean-forward="true" selection-start-line="27" selection-start-column="41" selection-end-line="27" selection-end-column="41" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/JavaScript/ToDoList/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="90">
+              <caret line="6" column="23" selection-start-line="6" selection-start-column="10" selection-end-line="6" selection-end-column="23" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/JavaScript/ToDoList/ToDoList.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="195">
+              <caret line="13" column="8" selection-start-line="13" selection-start-column="8" selection-end-line="13" selection-end-column="8" />
             </state>
           </provider>
         </entry>
@@ -82,10 +100,10 @@
         <option value="$PROJECT_DIR$/JavaScript/ConvertTemperature/style.css" />
         <option value="$PROJECT_DIR$/JavaScript/ConvertTemperature/ConvertTemperature.js" />
         <option value="$PROJECT_DIR$/JavaScript/ToDoList/style.css" />
-        <option value="$PROJECT_DIR$/JavaScript/ToDoList/ToDoList.js" />
-        <option value="$PROJECT_DIR$/JavaScript/ToDoList/index.html" />
         <option value="$PROJECT_DIR$/JavaScript/ConvertTemperature/index.html" />
         <option value="$PROJECT_DIR$/JavaScript/Object/Object.js" />
+        <option value="$PROJECT_DIR$/JavaScript/ToDoList/index.html" />
+        <option value="$PROJECT_DIR$/JavaScript/ToDoList/ToDoList.js" />
         <option value="$PROJECT_DIR$/JavaScript/ConvertTemperature/convertTemperature.js" />
       </list>
     </option>
@@ -131,6 +149,12 @@
               <item name="AcademitsWeb" type="462c0819:PsiDirectoryNode" />
               <item name="JavaScript" type="462c0819:PsiDirectoryNode" />
               <item name="ConvertTemperature" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="AcademitsWeb" type="b2602c69:ProjectViewProjectNode" />
+              <item name="AcademitsWeb" type="462c0819:PsiDirectoryNode" />
+              <item name="JavaScript" type="462c0819:PsiDirectoryNode" />
+              <item name="ToDoList" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -206,24 +230,24 @@
       <workItem from="1560581742184" duration="85000" />
       <workItem from="1560581849906" duration="14244000" />
       <workItem from="1560672947841" duration="53511000" />
-      <workItem from="1561881354724" duration="41941000" />
+      <workItem from="1561881354724" duration="46232000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="112449000" />
+    <option name="totallyTimeSpent" value="116740000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="26" width="1280" height="711" extended-state="6" />
+    <frame x="0" y="27" width="1280" height="711" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2065131" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2065131" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.3279483" />
-      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.3990307" />
+      <window_info anchor="bottom" id="Debug" order="3" visible="true" weight="0.3990307" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -387,13 +411,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/JavaScript/ToDoList/ToDoList.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" selection-start-line="7" selection-end-line="7" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/JavaScript/Array/Array.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-317">
@@ -403,22 +420,29 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/JavaScript/ToDoList/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="40" selection-start-line="10" selection-start-column="40" selection-end-line="10" selection-end-column="40" />
+        <state relative-caret-position="90">
+          <caret line="6" column="23" selection-start-line="6" selection-start-column="10" selection-end-line="6" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/JavaScript/ToDoList/ToDoList.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="13" column="8" selection-start-line="13" selection-start-column="8" selection-end-line="13" selection-end-column="8" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/JavaScript/ConvertTemperature/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
+        <state relative-caret-position="14">
           <caret line="3" column="26" lean-forward="true" selection-start-line="3" selection-start-column="26" selection-end-line="3" selection-end-column="26" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/JavaScript/ConvertTemperature/convertTemperature.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="108">
-          <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
+        <state relative-caret-position="153">
+          <caret line="27" column="41" lean-forward="true" selection-start-line="27" selection-start-column="41" selection-end-line="27" selection-end-column="41" />
         </state>
       </provider>
     </entry>
